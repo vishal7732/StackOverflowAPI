@@ -1,0 +1,12 @@
+<h1>Your Results:</h1>
+
+<div>
+    {% for obj in Question1 %}
+    <h2>{{ obj.question }}</h2><br>
+    {{ obj.vote_count }}<br>
+    {{ obj.views }}<br>
+    {{ obj.tags }}<br>
+    <br>
+    <hr>
+    {% endfor %}
+</div>
